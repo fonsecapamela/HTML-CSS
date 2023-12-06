@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.575);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165) 
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer >p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Meu site
+        <nav>
+            <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n& pp=iAQB">HTML e CSS3 módulo I</a>
+            
+            <a href="https://www.youtube.com/watch?v=vPNIAJ9B4hg&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&pp=iAQB">HTML e CSS3 módulo II</a>
+            
+            <a href="https://www.youtube.com/watch?v=ofFgnDtn_1c&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&pp=iAQB">HTML e CSS3 módulo III</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">  </section>
+        <section id="Notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sunt corrupti quidem magnam repellendus nulla porro excepturi ut fuga saepe modi nobis fugiat dolore, error beatae, commodi illo quaerat officia!</p>
+                <aside>
+                    <p>Artigo escrito por Pamela Fonseca </p>
+                </aside>
+            </article>
+        </section>
+        
+
+    </main>
+    <footer>
+        Desenvolvido pelo Curso em Vídeo
+    </footer>
+
+</body>
+</html>

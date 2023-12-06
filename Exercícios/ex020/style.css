@@ -1,0 +1,35 @@
+@charset "UTF-8"
+/*
+ Seletores Personalizados
+Símbolos utilizados na aula
+# = id
+. = classes
+: = Pseudo-classes
+:: = pseudo-element
+> = clildren
+
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: red;
+}
+a:visited{
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+}
+a::after{
+    content: 'link';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}

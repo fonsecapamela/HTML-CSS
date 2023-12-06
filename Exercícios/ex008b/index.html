@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações adicionais em HTML 5</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <hr>
+    <h2>Código-fonte / Pré-formatação </h2>
+    <p>O comando <code>document.getelementById('teste')</code> é escrito em linguagem JavaScript </p>
+    <pre>
+        <code>
+        num=int(imput('Digite um número'))
+        if num %2 == 0:
+            print(f'0 número {num} é PAR')
+        else:
+            print(f'0 número {num} é impar')
+        print('Fim do programa')
+            </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
+    Para utilizar aspas, devemos usar a tag &lt;Q&gt;
+    <h2>Citações completas </h2>
+    <p>Segundo Regina Célia Veiga da Fonseca, no seu livro <q>Metodologia do Trabalho Científico:</q>
+        <blockquote cite="https://www.google.com.br/books/edition/Metodologia_Do_Trabalho_Cient%C3%ADfico/jtP-KupagtcC?hl=pt-BR&gbpv=1&dq=como++fazer+cita%C3%A7%C3%A3o+direta&printsec=frontcover">
+            São informações extraídas de fontes consultadas e mencionadas no texto, com a função de esclarecer e sustentar o assunto abordado, complementando as ideias do autor do trabalho acadêmico-científico. Para todo e qualquer tipo de citação, direta ou indireta, é obrigatório mencionar a fonte de onde a ideia foi retirada, isto é, o sobrenome(s) do(s) autor(es) e o ano de publicação da obra. </blockquote></p>
+    <p>Para fazer este tipo de citação, como mencionada no parágrafo anterior &#x1F446 devemos  utilizar a tag &lt;blockquote + cite&gt; e depois do cite, adicionar o link do documento da referência da referência,</p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> e estou adorando!</p>
+    <p>Para criar abreviações, devemos usar a tag &lt;abbr&gt; e dentro da tag, colocar o nome completo daquela abreviação</p>
+    <h2>Texto invertido: escrever ao contrário 🤣</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <p>Para escrever ao contrário, usa-se a tag &lt;bdo:r&gt;</p>
+</body>
+</html>
