@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas _ Exercício 5
+    </title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        col.cprof{
+            background-color: palevioletred;
+        }
+        col.cidade{
+            background-color: blueviolet;
+        }
+        col.csexo{
+            background-color: rgb(247, 145, 20);
+        }
+        col.cnome{
+            background-color: rgb(252, 61, 61);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col  class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Fonoaudióloga</td>
+        </tr>
+
+        <tr>
+            <td>Thalles</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Taifeiro</td>
+        </tr>
+
+        <tr>
+            <td>Elídio</td>
+            <td>M</td>
+            <td>50</td>
+            <td>Pedreiro</td>
+        </tr>
+
+        <tr>
+            <td>Jefferson</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Motorista</td>
+        </tr>
+
+        <tr>
+            <td>Priscila</td>
+            <td>F</td>
+            <td>31</td>
+            <td>Enfermeira</td>
+        </tr>
+
+        <tr>
+            <td>Eduardo Paes</td>
+            <td>M</td>
+            <td>54</td>
+            <td>Prefeito</td>
+        </tr>
+    </table>
+</body>
+</html>
